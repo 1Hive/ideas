@@ -1,12 +1,11 @@
 # BEEs & HONEY 🐝🍯 V2
 - note: this is not a better version than V1, but an alternative
 
-? is a question
-! is a problem
-
-HIVE = the 1Hive DAO vault
-BEE = membership
-HONEY = voting power (influence)
+    ? = question
+    ! = problem
+    BEE = membership token
+    HONEY = voting/redemption token
+    HIVE = the 1Hive DAO vault
 
 ### BEE = membership
 - BEE is an NFT that shall not be transferred (either using a non-transferable badge (ERC-1238 type thing) or social contract)
