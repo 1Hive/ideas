@@ -1,5 +1,4 @@
 # BEEs & HONEY 🐝🍯 V2
-- note: this is not a better version than V1, but an alternative
 
     ? = question
     ! = problem
