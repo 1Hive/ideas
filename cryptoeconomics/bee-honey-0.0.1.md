@@ -1,7 +1,7 @@
 # BEEs & HONEY 🐝🍯
 
-    ? is a question
-    ! is a problem
+    ? = question
+    ! = problem
     BEE = membership token
     HONEY = voting/redemption token
     BC = bonding curve
