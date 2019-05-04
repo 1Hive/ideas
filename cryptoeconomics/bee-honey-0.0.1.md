@@ -1,10 +1,13 @@
 # BEEs & HONEY 🐝🍯
 
 ? is a question
+
 ! is a problem
 
 BEE = membership token
+
 HONEY = voting/redemption token
+
 BC = bonding curve
 
 ### 1Hive Treasury
