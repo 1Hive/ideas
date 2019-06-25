@@ -4,14 +4,24 @@
     ! is a problem
 
 ### BEE = membership
-- only bees can vote in the hive
-- voting includes allowing new bees into the hive, removing bees from the hive, or moving funds from the hive community vault
-- ! No Check and Balances: some actions require consent from multiple stakeholder groups. This could look like allowing multiple parties to create proposals and vote, or by having independent votes but then requiring both votes to pass to take an action
-- ! Poor Cryptoeconomic Alignment: it is assumed that BEEs would be incentivized to make decisions that create value for the hive, and thus encourage more people to buy POLLEN, and thus creating more work/value for BEEs. This is not a direct incentive model though and is more of a long-term view. Politics, personal goals, and short term outlooks could totally mess that up lol. Maybe better to have a multiple stakeholder system, but where BEE votes are weighted more heavily than those outside the hive.
+- only bees can earn honey
+- anyone can become a bee by contributing
+1. funds 
+and/or
+2. work
+
+by
+
+1. buying pollen
+and/or
+2. PR/forking/creating any project and working on it
+- this saves time wasted on adding/removing bees from the hive, allows honey to solve the problem of allocating funds from the hive community vault, and resolves the issues of No Check and Balances and Poor Cryptoeconomic Alignment
 
 ### HONEY = reputation
 - only bees can earn honey
-- honey increases the voting power of bees
+- HONEY determines how POLLEN is allocated from the hive community vault to a given bee :
+
+(bee's honey)/(hive's honey) = (bee's pollen)/(hive community vault's pollen)
 
 ### POLLEN = signaling/rewards
 - anyone can purchase pollen against a bonding curve
@@ -22,6 +32,14 @@
 
 ### Bonding Curve
 - ETH <=> POLLEN
-- at a regular interval (voted on by bees), ETH is moved from the curve into the hive community vault
-- if bees want to fund/support/incentivize projects for the hive, they can vote to move ETH from the hive community vault back into the curve to get POLLEN, and then they can stake that POLLEN to the project they want to support
-- ? from a technical perspective, is it realistic to have a contract handle Vault => Curve => Bounty? And/or would we want an "admin" (Queen) to manage that process on behalf of the hive until we build a contract/function that does it automagically? 
+- whenever an investor buys POLLEN, a portion of their ETH is required to go to the hive community vault
+- if bees want to fund/support/incentivize projects for the hive, they directly stake POLLEN earned/allocated to the project they want to support
+- it is realistic to have a contract automagically handle Vault => Curve => Bounty according to the function
+
+(bee's honey)/(hive's honey) = (bee's pollen)/(hive community vault's pollen)
+
+as part of a meritocratic system based on projects:
+
+https://github.com/disclosure-exchange/whitepaper/wiki/R&D#merit-system
+
+- ? The tricky part is: How is honey measured/earned? Perhaps it should be decided by something in between admin/collective, sourcecred.io /automagic. What about conviction voting/auction?
