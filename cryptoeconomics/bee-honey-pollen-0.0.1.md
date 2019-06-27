@@ -39,7 +39,7 @@ and/or
 and
 2. community vault
 
-with the funds split in a p:1−p ratio of reserve:community funding set by the hive (for example, .1:.9 is fitting for an early-stage startup, while .5:.5 would be fitting for an established startup)."
+with the funds split in a p:1−p ratio of reserve:community funding set by the hive (for example, .1:.9 is fitting for an early-stage startup, while .5:.5 would be fitting for an established startup).
 - the bonding curve mathematics are described here: https://hackmd.io/@themathematicianisin/BkikbN2kr
 - if bees want to fund/support/incentivize projects for the hive, they directly stake POLLEN earned/allocated to the project they want to support
 - it is realistic to have a contract automagically handle Vault => Curve => Bounty according to the function
